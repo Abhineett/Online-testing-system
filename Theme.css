@@ -1,0 +1,54 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.top{
+    height: 50px;
+    background-color: rgb(124, 233, 46);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.top div.sitename{
+    display: inline-block;
+    color: red;
+    position: relative;
+    top:-10px;
+}
+.top div.menu{
+    float: right;
+}
+.top div.menu a{
+    color: darkolivegreen;
+    display: inline-block;
+    min-width: 50px;
+    margin-right: 10px;
+
+}
+.content{
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+    
+
+}
+table{
+   width: 90%;
+
+}
+table tr:nth-child(odd){
+    background-color: darkgreen;
+    color: white;
+    height: 30px;  
+}
+table tr:nth-child(even){
+    background-color: rgb(92, 203, 92);
+    height: 30px;  
+}
+table tr:first-child{
+    background-color: rgb(100, 0, 60);
+   
+}
+table td{
+    text-align: center;
+
+}
